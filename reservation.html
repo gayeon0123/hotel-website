@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  
+  <body>
+    <div class="wrap">
+      <div class="intro_bg">
+        <div class="header">
+          <div class="searchArea">
+            <form>
+              <input type="search" placeholder="search">
+              <span>검색</span>
+            </form>
+          </div>
+          <ul class="nav">
+            <li><a href="home.html">HOME</a></li>
+            <li><a href="Service.html">Service</a></li>
+            <li><a href="rooms.html">Rooms</a></li>
+            <li><a href="reservation.html">Reservation</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+    </div>
+    </div>
+
+
+
+        <br/>
+        <div class="row" style="margin: 0px 290px;">
+            <label style="padding-left: 160px;"><em><b><h1 style="color:rgba(38, 71, 189, 0.755)">Reservation</h1></b></em></label>
+            <form action="reservation.html">
+                <br>
+                <div class="row" style="text-align:center;">
+                    <div class="column" style="padding-left: 100px;">
+                        <h3 style="text-align:left;">Name</h3>
+                        <input class="inputcon" type="text" placeholder="Full Name" style="width: 650px; height: 15px; padding: 15px; border-color: rgb(89, 89, 89); border-radius: 5px;"><br/><br/>
+                        <h3 style="text-align:left;">Phone Number</h3>
+                        <input class="inputcon" type="tel" placeholder="Phone Number" style="width: 650px; height: 15px; padding: 15px; border-color: rgb(89, 89, 89); border-radius: 5px;"><br/><br/>
+                        <h3 style="text-align:left;">Email Address</h3>
+                        <input class="inputcon" type="email" placeholder="Email Address" style="width: 650px; height: 15px; padding: 15px; border-color: rgb(89, 89, 89); border-radius: 5px;"><br/><br/>
+                        <h3 style="text-align:left;">Room type</h3>
+                        <input class="inputcon" type="text" placeholder="Room A / Room B / Luxury Room" style="width: 650px; height: 15px; padding: 15px; border-color: rgb(89, 89, 89); border-radius: 5px;"><br/><br/>
+                        <h3 style="text-align:left;">Check In</h3>
+                        <input class="inputcon" type="datetime-local" value="2022-12-14T10:30" placeholder="check in" style="width: 650px; height: 15px; padding: 15px; border-color: rgb(89, 89, 89); border-radius: 5px;"><br/><br/>
+                        <h3 style="text-align:left;">Check Out</h3>
+                        <input class="inputcon" type="datetime-local" value="2022-12-15T10:30" placeholder="check in" style="width: 650px; height: 15px; padding: 15px; border-color: rgb(89, 89, 89); border-radius: 5px;"><br/><br/>
+                        <h3 style="text-align:left;">Number of Guests</h3>
+                        <input class="inputcon" type="number" value="1" min="1" max="6" step="1" placeholder="number of guests" style="width: 650px; height: 15px; padding: 15px; border-color: rgb(89, 89, 89); border-radius: 5px;"><br/><br/>
+
+                        
+                    </div>
+                </div>
+    
+                    <a href="#">
+                        <button class="bttn"
+                               value="Reserve"
+                               style="width: 685px;
+                                      font-weight: bold; 
+                                      font-size: 17px;
+                                      background-color: rgb(89, 89, 89); 
+                                      color: white; 
+                                      border-color: rgb(89, 89, 89);
+                                      border-style: solid;
+                                      border-radius: 10px;
+                                      margin-left: 100px;
+                                      ">Reserve!
+                        </button>
+                    </a>
+            </form>
+            <br>
+        </div>
+</body>
+</html>
